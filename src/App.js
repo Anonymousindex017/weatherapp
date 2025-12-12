@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { use, useEffect, useState } from 'react';
 
@@ -48,8 +47,6 @@ const handleSubmit=(event)=>{
   event.preventDefault();
   fetchWeatherData();
 }
-
-
 
 
   return (
